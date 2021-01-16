@@ -13,10 +13,6 @@ function submitToAPI(e) {
       contentType: "application/json; charset=utf-8",
       data: JSON.stringify(data),
       success: function () {
-         $("#success-alert").show();
-         setTimeout(function () {
-            $("#success-alert").hide();
-         }, 5000);
          location.reload();
       },
       error: function () {}
