@@ -1,6 +1,6 @@
 function submitToAPI(e) {
    e.preventDefault();
-   var URL = "https://v4v5o1d08k.execute-api.ap-south-1.amazonaws.com/01/registration";
+   var URL = "https://l9ebdufdyl.execute-api.ap-south-1.amazonaws.com/dev/register";
    var email = $("#email").val();
    var data = {
       email: email
